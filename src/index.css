@@ -1,0 +1,68 @@
+body{
+  background-color: darkgray;
+}
+
+h1{
+  padding-top: 2%;
+}
+
+.container {
+  text-align: center;
+  background-color: whitesmoke;
+  margin: auto;
+  width: 70%;
+  height: 100%;
+  margin-top: 10%;
+  border-radius: 10px;
+}
+
+
+form label{
+  display: block;
+}
+
+.nomeServico{
+  margin-bottom: 5%;
+}
+
+.descServico{
+  margin-bottom: 5%
+}
+
+button{
+  margin-bottom: 100px;
+}
+
+button.add-btn{
+  background-color: rgb(0, 94, 255);
+  color: white;
+  border-radius: 10px;
+  width: 15%;
+  height: 40px;
+}
+
+button.editar-btn{
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  width: 10%;
+  height: 30px;
+  margin-right: 5%;
+}
+
+button.exclui-btn{
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  width: 10%;
+  height: 30px;
+
+}
+
+button.att-btn{
+  background-color: rgb(255, 242, 0);
+  color: black;
+  border-radius: 10px;
+  width: 15%;
+  height: 35px;
+}
